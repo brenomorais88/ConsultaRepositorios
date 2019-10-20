@@ -10,9 +10,10 @@ import UIKit
 import SnapKit
 
 class RepositoriesListVC: UIViewController {
-    private var tableView: UITableView = UITableView()
-    private var loading: UIActivityIndicatorView = UIActivityIndicatorView()
-    private var errorLabel: UILabel = UILabel()
+    var tableView: UITableView = UITableView()
+    var loading: UIActivityIndicatorView = UIActivityIndicatorView()
+    var errorLabel: UILabel = UILabel()
+    
     private var repositoriesListViewModel: RepositoriesListViewModel? = nil
     private var page: Int = 1
     private var repositories: [Repositories] = []

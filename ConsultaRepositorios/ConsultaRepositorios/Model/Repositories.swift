@@ -25,4 +25,6 @@ class Repositories: Mappable {
     required init?(map: Map){
         
     }
+    
+    init() {}
 }
