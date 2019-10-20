@@ -1,0 +1,6 @@
+framework module Pods_ConsultaRepositoriosTests {
+  umbrella header "Pods-ConsultaRepositoriosTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
