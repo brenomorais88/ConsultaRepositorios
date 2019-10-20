@@ -22,20 +22,12 @@
 		19A69AC5235CF89E0043A9B6 /* RepositorieOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A69AC4235CF89E0043A9B6 /* RepositorieOwner.swift */; };
 		19A69AC7235D02850043A9B6 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A69AC6235D02850043A9B6 /* UIImageView+Extensions.swift */; };
 		19CEC5E4235D0BC300C50F30 /* RepositoriesListVCSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CEC5E3235D0BC300C50F30 /* RepositoriesListVCSpec.swift */; };
-		19CEC5FA235D10B000C50F30 /* ConsultaRepositoriosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CEC5F9235D10B000C50F30 /* ConsultaRepositoriosUITests.swift */; };
 		CC26462B623A1B22D9DA1007 /* Pods_ConsultaRepositoriosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB42FEBC91209F92D2A7A61 /* Pods_ConsultaRepositoriosTests.framework */; };
 		F38F32106360569E8755BCDF /* Pods_ConsultaRepositorios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A4418264CE8157110BC1D6 /* Pods_ConsultaRepositorios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		19517775235CB9B4004BD9FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 19517758235CB9AF004BD9FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1951775F235CB9AF004BD9FE;
-			remoteInfo = ConsultaRepositorios;
-		};
-		19CEC5FC235D10B000C50F30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 19517758235CB9AF004BD9FE /* Project object */;
 			proxyType = 1;
@@ -65,9 +57,6 @@
 		19A69AC4235CF89E0043A9B6 /* RepositorieOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositorieOwner.swift; sourceTree = "<group>"; };
 		19A69AC6235D02850043A9B6 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		19CEC5E3235D0BC300C50F30 /* RepositoriesListVCSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesListVCSpec.swift; sourceTree = "<group>"; };
-		19CEC5F7235D10B000C50F30 /* ConsultaRepositoriosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsultaRepositoriosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		19CEC5F9235D10B000C50F30 /* ConsultaRepositoriosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaRepositoriosUITests.swift; sourceTree = "<group>"; };
-		19CEC5FB235D10B000C50F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		332F09FD76932F1D2174DA20 /* Pods-ConsultaRepositorios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsultaRepositorios.release.xcconfig"; path = "Target Support Files/Pods-ConsultaRepositorios/Pods-ConsultaRepositorios.release.xcconfig"; sourceTree = "<group>"; };
 		478E88775176BB5BB152CD5D /* Pods-ConsultaRepositorios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsultaRepositorios.debug.xcconfig"; path = "Target Support Files/Pods-ConsultaRepositorios/Pods-ConsultaRepositorios.debug.xcconfig"; sourceTree = "<group>"; };
 		5D2A3C1B734D510DC68C3B7F /* Pods-ConsultaRepositoriosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsultaRepositoriosTests.debug.xcconfig"; path = "Target Support Files/Pods-ConsultaRepositoriosTests/Pods-ConsultaRepositoriosTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,13 +81,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC26462B623A1B22D9DA1007 /* Pods_ConsultaRepositoriosTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		19CEC5F4235D10B000C50F30 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +113,6 @@
 			children = (
 				19517762235CB9AF004BD9FE /* ConsultaRepositorios */,
 				19517777235CB9B4004BD9FE /* ConsultaRepositoriosTests */,
-				19CEC5F8235D10B000C50F30 /* ConsultaRepositoriosUITests */,
 				19517761235CB9AF004BD9FE /* Products */,
 				0CBD4AB01ECD1857E881434F /* Pods */,
 				B477156900D50E46B8206B93 /* Frameworks */,
@@ -143,7 +124,6 @@
 			children = (
 				19517760235CB9AF004BD9FE /* ConsultaRepositorios.app */,
 				19517774235CB9B4004BD9FE /* ConsultaRepositoriosTests.xctest */,
-				19CEC5F7235D10B000C50F30 /* ConsultaRepositoriosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,15 +207,6 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		19CEC5F8235D10B000C50F30 /* ConsultaRepositoriosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				19CEC5F9235D10B000C50F30 /* ConsultaRepositoriosUITests.swift */,
-				19CEC5FB235D10B000C50F30 /* Info.plist */,
-			);
-			path = ConsultaRepositoriosUITests;
-			sourceTree = "<group>";
-		};
 		B477156900D50E46B8206B93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,24 +259,6 @@
 			productReference = 19517774235CB9B4004BD9FE /* ConsultaRepositoriosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		19CEC5F6235D10B000C50F30 /* ConsultaRepositoriosUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 19CEC5FE235D10B000C50F30 /* Build configuration list for PBXNativeTarget "ConsultaRepositoriosUITests" */;
-			buildPhases = (
-				19CEC5F3235D10B000C50F30 /* Sources */,
-				19CEC5F4235D10B000C50F30 /* Frameworks */,
-				19CEC5F5235D10B000C50F30 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				19CEC5FD235D10B000C50F30 /* PBXTargetDependency */,
-			);
-			name = ConsultaRepositoriosUITests;
-			productName = ConsultaRepositoriosUITests;
-			productReference = 19CEC5F7235D10B000C50F30 /* ConsultaRepositoriosUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -322,10 +275,6 @@
 					19517773235CB9B4004BD9FE = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1000;
-						TestTargetID = 1951775F235CB9AF004BD9FE;
-					};
-					19CEC5F6235D10B000C50F30 = {
-						CreatedOnToolsVersion = 10.0;
 						TestTargetID = 1951775F235CB9AF004BD9FE;
 					};
 				};
@@ -345,7 +294,6 @@
 			targets = (
 				1951775F235CB9AF004BD9FE /* ConsultaRepositorios */,
 				19517773235CB9B4004BD9FE /* ConsultaRepositoriosTests */,
-				19CEC5F6235D10B000C50F30 /* ConsultaRepositoriosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -362,13 +310,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		19517772235CB9B4004BD9FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		19CEC5F5235D10B000C50F30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,14 +426,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19CEC5F3235D10B000C50F30 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				19CEC5FA235D10B000C50F30 /* ConsultaRepositoriosUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -500,11 +433,6 @@
 			isa = PBXTargetDependency;
 			target = 1951775F235CB9AF004BD9FE /* ConsultaRepositorios */;
 			targetProxy = 19517775235CB9B4004BD9FE /* PBXContainerItemProxy */;
-		};
-		19CEC5FD235D10B000C50F30 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1951775F235CB9AF004BD9FE /* ConsultaRepositorios */;
-			targetProxy = 19CEC5FC235D10B000C50F30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -717,42 +645,6 @@
 			};
 			name = Release;
 		};
-		19CEC5FF235D10B000C50F30 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ConsultaRepositoriosUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.brenoMorais.ConsultaRepositoriosUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ConsultaRepositorios;
-			};
-			name = Debug;
-		};
-		19CEC600235D10B000C50F30 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ConsultaRepositoriosUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.brenoMorais.ConsultaRepositoriosUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ConsultaRepositorios;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -779,15 +671,6 @@
 			buildConfigurations = (
 				1951778C235CB9B4004BD9FE /* Debug */,
 				1951778D235CB9B4004BD9FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		19CEC5FE235D10B000C50F30 /* Build configuration list for PBXNativeTarget "ConsultaRepositoriosUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				19CEC5FF235D10B000C50F30 /* Debug */,
-				19CEC600235D10B000C50F30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
