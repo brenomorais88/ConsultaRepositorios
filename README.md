@@ -13,7 +13,6 @@ MVVM (Movel-View-ViewModel)
 
 #### Alamofire
 #### AlamofireObjectMapper
-#### ObjectMapper
 #### Quick
 #### Nimble
 
